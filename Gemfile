@@ -13,7 +13,7 @@ end
 
 group :development do
   # Markdown formatting for yard
-  gem 'redcarpet'
+  gem 'redcarpet', '>= 3.5.1'
   # generating documentation
   gem 'yard'
   # for development and testing purposes
