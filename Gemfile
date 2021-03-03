@@ -31,14 +31,14 @@ end
 
 group :development, :test do
   # automatically include factories from spec/factories
-  gem 'factory_bot_rails'
+  gem 'factory_bot_rails', '>= 6.1.0'
   # Make rspec output shorter and more useful
   gem 'fivemat'
   # running documentation generation tasks and rspec tasks
   gem 'rake'
   # Define `rake spec`.  Must be in development AND test so that its available by default as a rake test when the
   # environment is development
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 4.0.1'
   gem 'rspec-rerun'
   gem 'rubocop'
   gem 'swagger-blocks'
