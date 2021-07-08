@@ -17,7 +17,7 @@ group :development do
   # for development and testing purposes
   gem 'pry-byebug'
   # module documentation
-  gem 'octokit'
+  gem 'octokit', '>= 4.21.0'
   # memory profiling
   gem 'memory_profiler'
   # cpu profiling
